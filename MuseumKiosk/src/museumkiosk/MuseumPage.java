@@ -589,19 +589,19 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel15.setBounds(40, 80, 361, 45);
 
         jRq1a.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq1a.setForeground(new java.awt.Color(204, 0, 204));
+        jRq1a.setForeground(new java.awt.Color(0, 0, 0));
         jRq1a.setText("Grey,Black or Pink");
         jPanel9.add(jRq1a);
         jRq1a.setBounds(30, 130, 187, 28);
 
         jRq1b.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq1b.setForeground(new java.awt.Color(204, 0, 204));
+        jRq1b.setForeground(new java.awt.Color(0, 0, 0));
         jRq1b.setText("Grey, Pink or Brown");
         jPanel9.add(jRq1b);
         jRq1b.setBounds(250, 130, 220, 28);
 
         jRq1c.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq1c.setForeground(new java.awt.Color(204, 0, 204));
+        jRq1c.setForeground(new java.awt.Color(0, 0, 0));
         jRq1c.setText("Grey, White or Pink");
         jPanel9.add(jRq1c);
         jRq1c.setBounds(30, 180, 187, 28);
@@ -613,37 +613,37 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel17.setBounds(40, 230, 407, 45);
 
         jRq2b.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq2b.setForeground(new java.awt.Color(204, 0, 204));
+        jRq2b.setForeground(new java.awt.Color(0, 0, 0));
         jRq2b.setText("3 to 5mtrs");
         jPanel9.add(jRq2b);
         jRq2b.setBounds(230, 280, 150, 28);
 
         jRq2a.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq2a.setForeground(new java.awt.Color(204, 0, 204));
+        jRq2a.setForeground(new java.awt.Color(0, 0, 0));
         jRq2a.setText("2 to 3.5 mtrs");
         jPanel9.add(jRq2a);
         jRq2a.setBounds(40, 280, 160, 28);
 
         jRq2c.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq2c.setForeground(new java.awt.Color(204, 0, 204));
+        jRq2c.setForeground(new java.awt.Color(0, 0, 0));
         jRq2c.setText("2 to 4 mtrs");
         jPanel9.add(jRq2c);
         jRq2c.setBounds(40, 330, 160, 28);
 
         jRq3a.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq3a.setForeground(new java.awt.Color(204, 0, 204));
+        jRq3a.setForeground(new java.awt.Color(0, 0, 0));
         jRq3a.setText("130 to 250kgs");
         jPanel9.add(jRq3a);
         jRq3a.setBounds(40, 420, 170, 28);
 
         jRq3c.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq3c.setForeground(new java.awt.Color(204, 0, 204));
+        jRq3c.setForeground(new java.awt.Color(0, 0, 0));
         jRq3c.setText("200 to 330 kgs");
         jPanel9.add(jRq3c);
         jRq3c.setBounds(40, 460, 172, 28);
 
         jRq3b.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq3b.setForeground(new java.awt.Color(204, 0, 204));
+        jRq3b.setForeground(new java.awt.Color(0, 0, 0));
         jRq3b.setText("150 to 230 kgs");
         jPanel9.add(jRq3b);
         jRq3b.setBounds(230, 420, 170, 28);
@@ -655,19 +655,19 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel18.setBounds(40, 360, 361, 45);
 
         jRq6a.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq6a.setForeground(new java.awt.Color(204, 0, 204));
+        jRq6a.setForeground(new java.awt.Color(0, 0, 0));
         jRq6a.setText("10 months");
         jPanel9.add(jRq6a);
         jRq6a.setBounds(520, 410, 140, 28);
 
         jRq6c.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq6c.setForeground(new java.awt.Color(204, 0, 204));
+        jRq6c.setForeground(new java.awt.Color(0, 0, 0));
         jRq6c.setText("11 months");
         jPanel9.add(jRq6c);
         jRq6c.setBounds(520, 450, 140, 28);
 
         jRq6b.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq6b.setForeground(new java.awt.Color(204, 0, 204));
+        jRq6b.setForeground(new java.awt.Color(0, 0, 0));
         jRq6b.setText("12 months");
         jPanel9.add(jRq6b);
         jRq6b.setBounds(690, 410, 160, 28);
@@ -679,13 +679,13 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel21.setBounds(520, 360, 361, 45);
 
         jRq4a.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq4a.setForeground(new java.awt.Color(204, 0, 204));
+        jRq4a.setForeground(new java.awt.Color(0, 0, 0));
         jRq4a.setText("White");
         jPanel9.add(jRq4a);
         jRq4a.setBounds(510, 140, 98, 28);
 
         jRq4b.setFont(new java.awt.Font("FreeMono", 1, 16)); // NOI18N
-        jRq4b.setForeground(new java.awt.Color(204, 0, 204));
+        jRq4b.setForeground(new java.awt.Color(0, 0, 0));
         jRq4b.setText("Pink");
         jRq4b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -696,7 +696,7 @@ public class MuseumPage extends javax.swing.JFrame {
         jRq4b.setBounds(720, 140, 130, 28);
 
         jRq4c.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq4c.setForeground(new java.awt.Color(204, 0, 204));
+        jRq4c.setForeground(new java.awt.Color(0, 0, 0));
         jRq4c.setText("Black");
         jPanel9.add(jRq4c);
         jRq4c.setBounds(510, 190, 87, 28);
@@ -714,13 +714,13 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel20.setBounds(520, 230, 494, 45);
 
         jRq5a.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq5a.setForeground(new java.awt.Color(204, 0, 204));
+        jRq5a.setForeground(new java.awt.Color(0, 0, 0));
         jRq5a.setText("20 to 30seconds");
         jPanel9.add(jRq5a);
         jRq5a.setBounds(510, 290, 180, 28);
 
         jRq5c.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq5c.setForeground(new java.awt.Color(204, 0, 204));
+        jRq5c.setForeground(new java.awt.Color(0, 0, 0));
         jRq5c.setText("10 to 20 seconds");
         jRq5c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -731,7 +731,7 @@ public class MuseumPage extends javax.swing.JFrame {
         jRq5c.setBounds(510, 330, 180, 28);
 
         jRq5b.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
-        jRq5b.setForeground(new java.awt.Color(204, 0, 204));
+        jRq5b.setForeground(new java.awt.Color(0, 0, 0));
         jRq5b.setText("30 to 40 seconds");
         jPanel9.add(jRq5b);
         jRq5b.setBounds(710, 290, 190, 28);
