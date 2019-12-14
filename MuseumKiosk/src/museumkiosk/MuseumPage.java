@@ -44,9 +44,21 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jScrollPane5 = new javax.swing.JScrollPane();
         jTextArea5 = new javax.swing.JTextArea();
+        jPanel3 = new javax.swing.JPanel();
+        jLabel6 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTextArea4 = new javax.swing.JTextArea();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        jTextArea10 = new javax.swing.JTextArea();
+        jLabel9 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        jTextArea11 = new javax.swing.JTextArea();
         jPanel6 = new javax.swing.JPanel();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        jTextArea12 = new javax.swing.JTextArea();
+        jLabel14 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -61,17 +73,14 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jScrollPane9 = new javax.swing.JScrollPane();
         jTextArea9 = new javax.swing.JTextArea();
-        jPanel3 = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        jTextArea4 = new javax.swing.JTextArea();
-        jScrollPane10 = new javax.swing.JScrollPane();
-        jTextArea10 = new javax.swing.JTextArea();
-        jLabel9 = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
+        jPanel9 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jTabbedPane1.setBackground(new java.awt.Color(204, 204, 255));
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel1.setText("Endangered Animal Species");
@@ -79,6 +88,7 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/index.jpeg"))); // NOI18N
         jLabel2.setText("jLabel2");
 
+        jTextArea2.setBackground(new java.awt.Color(204, 204, 204));
         jTextArea2.setColumns(20);
         jTextArea2.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         jTextArea2.setRows(5);
@@ -88,6 +98,7 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(51, 255, 0));
         jLabel3.setText("Chinese White Dolphine  Description");
 
+        jTextArea1.setBackground(new java.awt.Color(204, 204, 204));
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         jTextArea1.setRows(5);
@@ -194,7 +205,7 @@ public class MuseumPage extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 316, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 294, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(173, Short.MAX_VALUE))
+                .addContainerGap(161, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -203,36 +214,125 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Page 2", jPanel2);
 
+        jLabel6.setText("Human and The environment");
+
+        jTextArea4.setColumns(20);
+        jTextArea4.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
+        jTextArea4.setRows(5);
+        jTextArea4.setText("\nThe Indo-Pacific humpback dolphin is threatened by both habitat loss and pollution.\n Conservationists warn that Hong Kong may lose its rare Indo-Pacific humpback \ndolphins, also known as pink dolphins for their unique colour, unless China takes \nurgent action against pollution and other threats. \n\nTheir numbers in Hong Kong waters have fallen from an estimated 158 in 2003 to\n just 78 in 2011, with a further decline expected by the Hong Kong Dolphin\n Conservation Society");
+        jScrollPane4.setViewportView(jTextArea4);
+
+        jTextArea10.setColumns(20);
+        jTextArea10.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
+        jTextArea10.setRows(5);
+        jTextArea10.setText("\nThe subject of plastic pollution is a global phenomenon that has no-end in sight. \nPlastic pollution is widespread across all entangling oceans due to their buoyant and\ndurable properties that allow for sorption of toxicants to plastic while traveling \nthrough the environment.\n\nThere are many transit paths that allow for plastics and pollutions to enter oceans. \nFreshwater waste can enter oceans by rivers; delta or estuary (where rivers meet \nthe ocean). Human populations discarding their waste directly into marine waters.");
+        jScrollPane10.setViewportView(jTextArea10);
+
+        jLabel9.setText("The Impact of Plastic Polution");
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGap(21, 21, 21)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                .addGap(535, 535, 535)
+                                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 312, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                .addGap(17, 17, 17)
+                                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 238, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
+                                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 681, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap())
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 681, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 18, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(12, 12, 12)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(28, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Page 3", jPanel3);
+
         jLabel13.setText("Pollutants");
+
+        jTextArea11.setColumns(20);
+        jTextArea11.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
+        jTextArea11.setRows(5);
+        jTextArea11.setText("Indo-Pacific humpback dolphin (Sousa chinensis) are chronically \nexposed to organic pollutants since they inhabit shallow coastal \nwaters that are often impacted by anthropogenic activities. \n\nAnthropogenic pollutants pose a risk to marine mammals that \nreside in coastal waters. Discharge of organic pollutants into \nmarine environments has been shown to decrease water quality \nresulting in loss of habitats and a significant reduction in the\n species richness (Johnston and Roberts, 2009).\n\nThe loss of key pods have caused specie fragmentation, also due \nto habitat loss, which inclines specie isolation; decrease connectivity\nresulting in population decline. This loss in population is what lead \nthis species to be labeled as near threatened on the IUCN Red List \nof Threatened Species.\n\nThe consumption of plastics have adverse effects in marine\n mammals such as disease susceptibility, reproductive and \ndevelopmental toxicity.");
+        jScrollPane11.setViewportView(jTextArea11);
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGap(129, 129, 129)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 560, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                .addContainerGap(423, Short.MAX_VALUE)
                 .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(692, Short.MAX_VALUE))
+                .addGap(398, 398, 398))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(495, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 463, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Page 4", jPanel5);
+
+        jTextArea12.setColumns(20);
+        jTextArea12.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
+        jTextArea12.setRows(5);
+        jTextArea12.setText("In Hong Kong, boat trips to visit the Indo-Pacific humpback \ndolphins have been running since the 1990s.[14] The dolphins \nmainly live in the waters of Lantau North, Southeast Lantau, \nthe Soko Islands and Peng Chau. A code of conduct regulates\ndolphin-watching activity in Hong Kong waters.\n\nThere have been some reports of dolphin watching practices \nthat have further endangered the Indo-Pacific humpback \ndolphins, such as in Sanniang Bay dolphin sanctuary in \nQinzhou and off Xiamen.\n\nHowever, these generally are small, locally organised one-off \ntours or private pleasure boats that do not adhere to the Hong \nKong Agricultural and Fisheries Department's voluntary code of \nconduct");
+        jScrollPane12.setViewportView(jTextArea12);
+
+        jLabel14.setText("Distribution and Dolphine watching");
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1036, Short.MAX_VALUE)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 518, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 518, Short.MAX_VALUE))
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGap(54, 54, 54)
+                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 543, Short.MAX_VALUE)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGap(18, 18, 18)
+                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(147, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Page 5", jPanel6);
@@ -346,64 +446,34 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Page 6", jPanel7);
 
-        jLabel6.setText("Human and The environment");
-
-        jTextArea4.setColumns(20);
-        jTextArea4.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
-        jTextArea4.setRows(5);
-        jTextArea4.setText("\nThe Indo-Pacific humpback dolphin is threatened by both habitat loss and pollution.\n Conservationists warn that Hong Kong may lose its rare Indo-Pacific humpback \ndolphins, also known as pink dolphins for their unique colour, unless China takes \nurgent action against pollution and other threats. \n\nTheir numbers in Hong Kong waters have fallen from an estimated 158 in 2003 to\n just 78 in 2011, with a further decline expected by the Hong Kong Dolphin\n Conservation Society");
-        jScrollPane4.setViewportView(jTextArea4);
-
-        jTextArea10.setColumns(20);
-        jTextArea10.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
-        jTextArea10.setRows(5);
-        jTextArea10.setText("\nThe subject of plastic pollution is a global phenomenon that has no-end in sight. \nPlastic pollution is widespread across all entangling oceans due to their buoyant and\ndurable properties that allow for sorption of toxicants to plastic while traveling \nthrough the environment.\n\nThere are many transit paths that allow for plastics and pollutions to enter oceans. \nFreshwater waste can enter oceans by rivers; delta or estuary (where rivers meet \nthe ocean). Human populations discarding their waste directly into marine waters.");
-        jScrollPane10.setViewportView(jTextArea10);
-
-        jLabel9.setText("The Impact of Plastic Polution");
-
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(21, 21, 21)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addGap(535, 535, 535)
-                                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 312, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addGap(17, 17, 17)
-                                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 238, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
-                                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 681, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addContainerGap())
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 681, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))))
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1030, Short.MAX_VALUE)
         );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 519, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 21, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(12, 12, 12)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(37, Short.MAX_VALUE))
+                .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Page 3", jPanel3);
+        jTabbedPane1.addTab("Question", jPanel4);
 
         jButton1.setText("jButton1");
 
@@ -429,7 +499,7 @@ public class MuseumPage extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jTabbedPane1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, 44, Short.MAX_VALUE)
                     .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -482,6 +552,7 @@ public class MuseumPage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -493,12 +564,16 @@ public class MuseumPage extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -510,6 +585,8 @@ public class MuseumPage extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea10;
+    private javax.swing.JTextArea jTextArea11;
+    private javax.swing.JTextArea jTextArea12;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
