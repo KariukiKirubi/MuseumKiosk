@@ -91,6 +91,16 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTextArea3 = new javax.swing.JTextArea();
+        jLabel5 = new javax.swing.JLabel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        jTextArea5 = new javax.swing.JTextArea();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jScrollPane4 = new javax.swing.JScrollPane();
@@ -99,10 +109,19 @@ public class MuseumPage extends javax.swing.JFrame {
         jTextArea10 = new javax.swing.JTextArea();
         jLabel9 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jPanel5 = new javax.swing.JPanel();
+        jLabel13 = new javax.swing.JLabel();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        jTextArea11 = new javax.swing.JTextArea();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         jScrollPane12 = new javax.swing.JScrollPane();
         jTextArea12 = new javax.swing.JTextArea();
         jLabel14 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -148,22 +167,6 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel26 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
-        jPanel5 = new javax.swing.JPanel();
-        jLabel13 = new javax.swing.JLabel();
-        jScrollPane11 = new javax.swing.JScrollPane();
-        jTextArea11 = new javax.swing.JTextArea();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        jTextArea3 = new javax.swing.JTextArea();
-        jLabel5 = new javax.swing.JLabel();
-        jScrollPane5 = new javax.swing.JScrollPane();
-        jTextArea5 = new javax.swing.JTextArea();
-        jLabel27 = new javax.swing.JLabel();
-        jLabel28 = new javax.swing.JLabel();
-        jLabel29 = new javax.swing.JLabel();
         jBprevious = new javax.swing.JButton();
         jBnext = new javax.swing.JButton();
 
@@ -254,6 +257,50 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("", jPanel1);
 
+        jPanel2.setLayout(null);
+
+        jLabel4.setFont(new java.awt.Font("eufm10", 1, 36)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel4.setText("Behavior ");
+        jPanel2.add(jLabel4);
+        jLabel4.setBounds(160, 12, 279, 36);
+
+        jTextArea3.setBackground(new java.awt.Color(204, 204, 204));
+        jTextArea3.setColumns(20);
+        jTextArea3.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
+        jTextArea3.setRows(5);
+        jTextArea3.setText("\nIndo-Pacific white dolphins come to the water\n surface to breathe for 20 to 30 seconds before \ndiving deep again, for two to eight minutes. Dolphin \ncalves, with smaller lung capacities, surface twice as \noften as adults, staying underwater for one to three \nminutes.\n\n Adult dolphins rarely stay under water for more\n than four minutes. They sometimes leap completely\n out of the water. They may also rise up vertically\n from the water, exposing the dorsal half of their \nbodies. A pair of protruding eyes allows them to \nsee clearly in both air and water. ");
+        jScrollPane3.setViewportView(jTextArea3);
+
+        jPanel2.add(jScrollPane3);
+        jScrollPane3.setBounds(12, 54, 445, 294);
+        jPanel2.add(jLabel5);
+        jLabel5.setBounds(6, 54, 0, 316);
+
+        jTextArea5.setBackground(new java.awt.Color(204, 204, 204));
+        jTextArea5.setColumns(20);
+        jTextArea5.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
+        jTextArea5.setRows(5);
+        jTextArea5.setText("\nIndo-Pacific white dolphins are sociable creatures and live in \ngroups of three to four. Female dolphins become mature at 10 years\nold, while the males become mature at 13 years old. They usually\nmate from the end of summer to autumn.\n\nInfant dolphins are usually born 11 months after the mating. Mature \nfemales can give birth every three years, and parental care lasts until\ntheir offspring can find food  themselves. ");
+        jScrollPane5.setViewportView(jTextArea5);
+
+        jPanel2.add(jScrollPane5);
+        jScrollPane5.setBounds(469, 260, 584, 224);
+
+        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/anim2.gif"))); // NOI18N
+        jPanel2.add(jLabel27);
+        jLabel27.setBounds(0, 160, 560, 390);
+
+        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/anim2.gif"))); // NOI18N
+        jPanel2.add(jLabel28);
+        jLabel28.setBounds(480, 160, 80, 390);
+
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/anim2.gif"))); // NOI18N
+        jPanel2.add(jLabel29);
+        jLabel29.setBounds(560, -10, 480, 390);
+
+        jTabbedPane1.addTab("", jPanel2);
+
         jLabel6.setFont(new java.awt.Font("eufm10", 1, 32)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(51, 255, 0));
         jLabel6.setText("Human and The environment");
@@ -278,6 +325,8 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/1.jpeg"))); // NOI18N
 
+        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/anim3.gif"))); // NOI18N
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
@@ -286,40 +335,95 @@ public class MuseumPage extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 428, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 710, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 428, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                .addComponent(jLabel23)
+                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel3Layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 710, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel3Layout.createSequentialGroup()
+                                        .addGap(105, 105, 105)
+                                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 501, javax.swing.GroupLayout.PREFERRED_SIZE))))))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 716, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(38, 38, 38)
-                        .addComponent(jLabel23)
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 501, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 273, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, 172, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(12, 12, 12)))
-                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(17, Short.MAX_VALUE))
+                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(12, 12, 12)
+                        .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("", jPanel3);
+
+        jLabel13.setFont(new java.awt.Font("eufm10", 1, 32)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel13.setText("Pollutants");
+
+        jTextArea11.setBackground(new java.awt.Color(204, 204, 204));
+        jTextArea11.setColumns(20);
+        jTextArea11.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
+        jTextArea11.setRows(5);
+        jTextArea11.setText("Indo-Pacific humpback dolphin (Sousa chinensis) are chronically \nexposed to organic pollutants since they inhabit shallow coastal \nwaters that are often impacted by anthropogenic activities. \n\nAnthropogenic pollutants pose a risk to marine mammals that \nreside in coastal waters. Discharge of organic pollutants into \nmarine environments has been shown to decrease water quality \nresulting in loss of habitats and a significant reduction in the\n species richness.\n\nThe loss of key pods have caused specie fragmentation, also due \nto habitat loss, which inclines specie isolation; decrease connectivity\nresulting in population decline. This loss in population is what lead \nthis species to be labeled as near threatened on the IUCN Red List \nof Threatened Species.\n\nThe consumption of plastics have adverse effects in marine\n mammals such as disease susceptibility, reproductive and \ndevelopmental toxicity.");
+        jScrollPane11.setViewportView(jTextArea11);
+
+        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/anim1.gif"))); // NOI18N
+
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/3.jpeg"))); // NOI18N
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(398, 398, 398))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 295, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 146, Short.MAX_VALUE))
+                    .addComponent(jLabel24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 583, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addGap(19, 19, 19)
+                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 463, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("", jPanel5);
+
+        jPanel6.setLayout(null);
 
         jTextArea12.setBackground(new java.awt.Color(0, 204, 204));
         jTextArea12.setColumns(20);
@@ -328,31 +432,22 @@ public class MuseumPage extends javax.swing.JFrame {
         jTextArea12.setText("In Hong Kong, boat trips to visit the Indo-Pacific humpback \ndolphins have been running since the 1990s. The dolphins \nmainly live in the waters of Lantau North, Southeast Lantau, \nthe Soko Islands and Peng Chau. A code of conduct regulates\ndolphin-watching activity in Hong Kong waters.\n\nThere have been some reports of dolphin watching practices \nthat have further endangered the Indo-Pacific humpback \ndolphins, such as in Sanniang Bay dolphin sanctuary in \nQinzhou and off Xiamen.\n\nHowever, these generally are small, locally organised one-off \ntours or private pleasure boats that do not adhere to the Hong \nKong Agricultural and Fisheries Department's voluntary code of \nconduct");
         jScrollPane12.setViewportView(jTextArea12);
 
+        jPanel6.add(jScrollPane12);
+        jScrollPane12.setBounds(240, 70, 537, 323);
+
         jLabel14.setFont(new java.awt.Font("eufm10", 1, 32)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(153, 0, 153));
         jLabel14.setText("Distribution and Dolphine watching");
+        jPanel6.add(jLabel14);
+        jLabel14.setBounds(54, 18, 572, 50);
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 537, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(54, 54, 54)
-                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 572, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(410, Short.MAX_VALUE))
-        );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(18, 18, 18)
-                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(151, Short.MAX_VALUE))
-        );
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/anim3.gif"))); // NOI18N
+        jPanel6.add(jLabel22);
+        jLabel22.setBounds(0, 70, 240, 320);
+
+        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/anim3.gif"))); // NOI18N
+        jPanel6.add(jLabel32);
+        jLabel32.setBounds(780, 70, 240, 320);
 
         jTabbedPane1.addTab("", jPanel6);
 
@@ -476,6 +571,8 @@ public class MuseumPage extends javax.swing.JFrame {
         jPanel9.add(jLabel16);
         jLabel16.setBounds(335, 12, 324, 44);
 
+        jButton2.setFont(new java.awt.Font("eufm10", 1, 24)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(204, 0, 0));
         jButton2.setText("Submit");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -483,7 +580,7 @@ public class MuseumPage extends javax.swing.JFrame {
             }
         });
         jPanel9.add(jButton2);
-        jButton2.setBounds(430, 490, 168, 44);
+        jButton2.setBounds(430, 500, 168, 44);
 
         jLabel15.setFont(new java.awt.Font("Liberation Sans Narrow", 1, 18)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(51, 204, 0));
@@ -491,14 +588,20 @@ public class MuseumPage extends javax.swing.JFrame {
         jPanel9.add(jLabel15);
         jLabel15.setBounds(40, 80, 361, 45);
 
+        jRq1a.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq1a.setForeground(new java.awt.Color(204, 0, 204));
         jRq1a.setText("Grey,Black or Pink");
         jPanel9.add(jRq1a);
         jRq1a.setBounds(30, 130, 187, 28);
 
+        jRq1b.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq1b.setForeground(new java.awt.Color(204, 0, 204));
         jRq1b.setText("Grey, Pink or Brown");
         jPanel9.add(jRq1b);
-        jRq1b.setBounds(250, 130, 182, 28);
+        jRq1b.setBounds(250, 130, 220, 28);
 
+        jRq1c.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq1c.setForeground(new java.awt.Color(204, 0, 204));
         jRq1c.setText("Grey, White or Pink");
         jPanel9.add(jRq1c);
         jRq1c.setBounds(30, 180, 187, 28);
@@ -509,29 +612,41 @@ public class MuseumPage extends javax.swing.JFrame {
         jPanel9.add(jLabel17);
         jLabel17.setBounds(40, 230, 407, 45);
 
+        jRq2b.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq2b.setForeground(new java.awt.Color(204, 0, 204));
         jRq2b.setText("3 to 5mtrs");
         jPanel9.add(jRq2b);
-        jRq2b.setBounds(230, 280, 102, 28);
+        jRq2b.setBounds(230, 280, 150, 28);
 
+        jRq2a.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq2a.setForeground(new java.awt.Color(204, 0, 204));
         jRq2a.setText("2 to 3.5 mtrs");
         jPanel9.add(jRq2a);
-        jRq2a.setBounds(40, 280, 119, 28);
+        jRq2a.setBounds(40, 280, 160, 28);
 
+        jRq2c.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq2c.setForeground(new java.awt.Color(204, 0, 204));
         jRq2c.setText("2 to 4 mtrs");
         jPanel9.add(jRq2c);
-        jRq2c.setBounds(40, 330, 106, 28);
+        jRq2c.setBounds(40, 330, 160, 28);
 
+        jRq3a.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq3a.setForeground(new java.awt.Color(204, 0, 204));
         jRq3a.setText("130 to 250kgs");
         jPanel9.add(jRq3a);
-        jRq3a.setBounds(40, 420, 126, 28);
+        jRq3a.setBounds(40, 420, 170, 28);
 
+        jRq3c.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq3c.setForeground(new java.awt.Color(204, 0, 204));
         jRq3c.setText("200 to 330 kgs");
         jPanel9.add(jRq3c);
         jRq3c.setBounds(40, 460, 172, 28);
 
+        jRq3b.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq3b.setForeground(new java.awt.Color(204, 0, 204));
         jRq3b.setText("150 to 230 kgs");
         jPanel9.add(jRq3b);
-        jRq3b.setBounds(230, 420, 130, 28);
+        jRq3b.setBounds(230, 420, 170, 28);
 
         jLabel18.setFont(new java.awt.Font("Liberation Sans Narrow", 1, 18)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(51, 204, 0));
@@ -539,17 +654,23 @@ public class MuseumPage extends javax.swing.JFrame {
         jPanel9.add(jLabel18);
         jLabel18.setBounds(40, 360, 361, 45);
 
+        jRq6a.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq6a.setForeground(new java.awt.Color(204, 0, 204));
         jRq6a.setText("10 months");
         jPanel9.add(jRq6a);
-        jRq6a.setBounds(520, 410, 104, 28);
+        jRq6a.setBounds(520, 410, 140, 28);
 
+        jRq6c.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq6c.setForeground(new java.awt.Color(204, 0, 204));
         jRq6c.setText("11 months");
         jPanel9.add(jRq6c);
-        jRq6c.setBounds(520, 450, 104, 28);
+        jRq6c.setBounds(520, 450, 140, 28);
 
+        jRq6b.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq6b.setForeground(new java.awt.Color(204, 0, 204));
         jRq6b.setText("12 months");
         jPanel9.add(jRq6b);
-        jRq6b.setBounds(690, 410, 104, 28);
+        jRq6b.setBounds(690, 410, 160, 28);
 
         jLabel21.setFont(new java.awt.Font("Liberation Sans Narrow", 1, 18)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(51, 204, 0));
@@ -557,10 +678,14 @@ public class MuseumPage extends javax.swing.JFrame {
         jPanel9.add(jLabel21);
         jLabel21.setBounds(520, 360, 361, 45);
 
+        jRq4a.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq4a.setForeground(new java.awt.Color(204, 0, 204));
         jRq4a.setText("White");
         jPanel9.add(jRq4a);
         jRq4a.setBounds(510, 140, 98, 28);
 
+        jRq4b.setFont(new java.awt.Font("FreeMono", 1, 16)); // NOI18N
+        jRq4b.setForeground(new java.awt.Color(204, 0, 204));
         jRq4b.setText("Pink");
         jRq4b.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -568,8 +693,10 @@ public class MuseumPage extends javax.swing.JFrame {
             }
         });
         jPanel9.add(jRq4b);
-        jRq4b.setBounds(650, 140, 95, 28);
+        jRq4b.setBounds(720, 140, 130, 28);
 
+        jRq4c.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq4c.setForeground(new java.awt.Color(204, 0, 204));
         jRq4c.setText("Black");
         jPanel9.add(jRq4c);
         jRq4c.setBounds(510, 190, 87, 28);
@@ -586,10 +713,14 @@ public class MuseumPage extends javax.swing.JFrame {
         jPanel9.add(jLabel20);
         jLabel20.setBounds(520, 230, 494, 45);
 
+        jRq5a.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq5a.setForeground(new java.awt.Color(204, 0, 204));
         jRq5a.setText("20 to 30seconds");
         jPanel9.add(jRq5a);
-        jRq5a.setBounds(510, 290, 141, 28);
+        jRq5a.setBounds(510, 290, 180, 28);
 
+        jRq5c.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq5c.setForeground(new java.awt.Color(204, 0, 204));
         jRq5c.setText("10 to 20 seconds");
         jRq5c.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -597,11 +728,13 @@ public class MuseumPage extends javax.swing.JFrame {
             }
         });
         jPanel9.add(jRq5c);
-        jRq5c.setBounds(510, 330, 145, 28);
+        jRq5c.setBounds(510, 330, 180, 28);
 
+        jRq5b.setFont(new java.awt.Font("FreeMono", 1, 14)); // NOI18N
+        jRq5b.setForeground(new java.awt.Color(204, 0, 204));
         jRq5b.setText("30 to 40 seconds");
         jPanel9.add(jRq5b);
-        jRq5b.setBounds(710, 290, 145, 28);
+        jRq5b.setBounds(710, 290, 190, 28);
 
         jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/anim1.gif"))); // NOI18N
         jPanel9.add(jLabel26);
@@ -627,105 +760,11 @@ public class MuseumPage extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 573, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 541, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("", jPanel4);
-
-        jLabel13.setFont(new java.awt.Font("eufm10", 1, 32)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel13.setText("Pollutants");
-
-        jTextArea11.setBackground(new java.awt.Color(204, 204, 204));
-        jTextArea11.setColumns(20);
-        jTextArea11.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
-        jTextArea11.setRows(5);
-        jTextArea11.setText("Indo-Pacific humpback dolphin (Sousa chinensis) are chronically \nexposed to organic pollutants since they inhabit shallow coastal \nwaters that are often impacted by anthropogenic activities. \n\nAnthropogenic pollutants pose a risk to marine mammals that \nreside in coastal waters. Discharge of organic pollutants into \nmarine environments has been shown to decrease water quality \nresulting in loss of habitats and a significant reduction in the\n species richness.\n\nThe loss of key pods have caused specie fragmentation, also due \nto habitat loss, which inclines specie isolation; decrease connectivity\nresulting in population decline. This loss in population is what lead \nthis species to be labeled as near threatened on the IUCN Red List \nof Threatened Species.\n\nThe consumption of plastics have adverse effects in marine\n mammals such as disease susceptibility, reproductive and \ndevelopmental toxicity.");
-        jScrollPane11.setViewportView(jTextArea11);
-
-        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/anim1.gif"))); // NOI18N
-
-        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/3.jpeg"))); // NOI18N
-
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(398, 398, 398))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 295, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 146, Short.MAX_VALUE))
-                    .addComponent(jLabel24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 583, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 463, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jTabbedPane1.addTab("", jPanel5);
-
-        jPanel2.setLayout(null);
-
-        jLabel4.setFont(new java.awt.Font("eufm10", 1, 36)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel4.setText("Behavior ");
-        jPanel2.add(jLabel4);
-        jLabel4.setBounds(160, 12, 279, 36);
-
-        jTextArea3.setBackground(new java.awt.Color(204, 204, 204));
-        jTextArea3.setColumns(20);
-        jTextArea3.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
-        jTextArea3.setRows(5);
-        jTextArea3.setText("\nIndo-Pacific white dolphins come to the water\n surface to breathe for 20 to 30 seconds before \ndiving deep again, for two to eight minutes. Dolphin \ncalves, with smaller lung capacities, surface twice as \noften as adults, staying underwater for one to three \nminutes.\n\n Adult dolphins rarely stay under water for more\n than four minutes. They sometimes leap completely\n out of the water. They may also rise up vertically\n from the water, exposing the dorsal half of their \nbodies. A pair of protruding eyes allows them to \nsee clearly in both air and water. ");
-        jScrollPane3.setViewportView(jTextArea3);
-
-        jPanel2.add(jScrollPane3);
-        jScrollPane3.setBounds(12, 54, 445, 294);
-        jPanel2.add(jLabel5);
-        jLabel5.setBounds(6, 54, 0, 316);
-
-        jTextArea5.setBackground(new java.awt.Color(204, 204, 204));
-        jTextArea5.setColumns(20);
-        jTextArea5.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
-        jTextArea5.setRows(5);
-        jTextArea5.setText("\nIndo-Pacific white dolphins are sociable creatures and live in \ngroups of three to four. Female dolphins become mature at 10 years\nold, while the males become mature at 13 years old. They usually\nmate from the end of summer to autumn.\n\nInfant dolphins are usually born 11 months after the mating. Mature \nfemales can give birth every three years, and parental care lasts until\ntheir offspring can find food  themselves. ");
-        jScrollPane5.setViewportView(jTextArea5);
-
-        jPanel2.add(jScrollPane5);
-        jScrollPane5.setBounds(469, 260, 584, 224);
-
-        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/anim2.gif"))); // NOI18N
-        jPanel2.add(jLabel27);
-        jLabel27.setBounds(0, 160, 560, 390);
-
-        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/anim2.gif"))); // NOI18N
-        jPanel2.add(jLabel28);
-        jLabel28.setBounds(480, 160, 80, 390);
-
-        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/anim2.gif"))); // NOI18N
-        jPanel2.add(jLabel29);
-        jLabel29.setBounds(560, -10, 480, 390);
-
-        jTabbedPane1.addTab("", jPanel2);
 
         jBprevious.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/previous.jpeg"))); // NOI18N
         jBprevious.setText("Previous");
@@ -854,6 +893,7 @@ public class MuseumPage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
@@ -864,6 +904,8 @@ public class MuseumPage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
@@ -1003,10 +1045,10 @@ public class MuseumPage extends javax.swing.JFrame {
     //method to check if index of the page
     public void indexLocal(){
     //if the its the first page Disable the previous button
-        if(jTabbedPane1.getSelectedIndex()==1){
+        if(jTabbedPane1.getSelectedIndex()==0){
         jBprevious.setEnabled(false);
         jBnext.setEnabled(true);
-        }
+        }else
         //if the its the last page Disable the next button
         if(jTabbedPane1.getSelectedIndex()==6){
          jBnext.setEnabled(false);
