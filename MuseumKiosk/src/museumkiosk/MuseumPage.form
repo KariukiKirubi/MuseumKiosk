@@ -31,10 +31,10 @@
               <EmptySpace pref="16" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="jBprevious" min="-2" pref="168" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="189" max="-2" attributes="0"/>
-                      <Component id="jBnext" min="-2" pref="168" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="248" max="-2" attributes="0"/>
+                      <Component id="jBprevious" min="-2" pref="212" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="145" max="-2" attributes="0"/>
+                      <Component id="jBnext" min="-2" pref="205" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="211" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <Component id="jTabbedPane1" min="-2" pref="1038" max="-2" attributes="0"/>
@@ -47,13 +47,13 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Component id="jTabbedPane1" pref="565" max="32767" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jBprevious" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="jBnext" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+              <Component id="jTabbedPane1" pref="573" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jBprevious" min="-2" pref="83" max="-2" attributes="0"/>
+                  <Component id="jBnext" pref="0" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -64,6 +64,7 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="cc" red="cc" type="rgb"/>
         </Property>
+        <Property name="tabPlacement" type="int" value="3"/>
       </Properties>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
@@ -71,8 +72,8 @@
         <Container class="javax.swing.JPanel" name="jPanel1">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Page 1">
-                <Property name="tabTitle" type="java.lang.String" value="Page 1"/>
+              <JTabbedPaneConstraints tabName="">
+                <Property name="tabTitle" type="java.lang.String" value=""/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -82,7 +83,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel8" min="-2" pref="1043" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -92,7 +93,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="88" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -103,27 +104,27 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace min="412" max="32767" attributes="0"/>
-                          <Component id="jLabel1" min="-2" pref="370" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="213" max="-2" attributes="0"/>
-                      </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel2" min="-2" pref="253" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" pref="253" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jScrollPane1" min="-2" pref="454" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jScrollPane2" min="-2" pref="313" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
-                                  <Component id="jLabel3" min="-2" pref="266" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="339" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" pref="629" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="474" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -132,20 +133,13 @@
                       <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel1" min="-2" pref="27" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                                  <Component id="jLabel3" min="-2" pref="21" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jScrollPane1" min="-2" pref="343" max="-2" attributes="0"/>
-                                      <Component id="jScrollPane2" min="-2" pref="343" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="343" max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="343" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="19" max="32767" attributes="0"/>
                       </Group>
@@ -156,7 +150,10 @@
                 <Component class="javax.swing.JLabel" name="jLabel1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="18" style="1"/>
+                      <Font name="eufm10" size="32" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="ff" red="ff" type="rgb"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Endangered Animal Species"/>
                   </Properties>
@@ -193,6 +190,9 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="eufm10" size="32" style="1"/>
+                    </Property>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="0" green="ff" red="33" type="rgb"/>
                     </Property>
@@ -228,112 +228,11 @@
             </Container>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JPanel" name="jPanel2">
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Page 2">
-                <Property name="tabTitle" type="java.lang.String" value="Page 2"/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel5" max="32767" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jScrollPane3" min="-2" pref="445" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jScrollPane5" min="-2" pref="584" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
-                      <Component id="jLabel4" min="-2" pref="279" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                      <Component id="jLabel4" min="-2" pref="30" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel5" min="-2" pref="316" max="-2" attributes="0"/>
-                          <Component id="jScrollPane3" min="-2" pref="294" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace pref="170" max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jScrollPane5" min="-2" pref="205" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel4">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Behavior "/>
-              </Properties>
-            </Component>
-            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
-              <AuxValues>
-                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-              </AuxValues>
-
-              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-              <SubComponents>
-                <Component class="javax.swing.JTextArea" name="jTextArea3">
-                  <Properties>
-                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="cc" green="cc" red="cc" type="rgb"/>
-                    </Property>
-                    <Property name="columns" type="int" value="20"/>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="16" style="0"/>
-                    </Property>
-                    <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="&#xa;Indo-Pacific white dolphins come to the water&#xa; surface to breathe for 20 to 30 seconds before &#xa;diving deep again, for two to eight minutes. Dolphin &#xa;calves, with smaller lung capacities, surface twice as &#xa;often as adults, staying underwater for one to three &#xa;minutes.&#xa;&#xa; Adult dolphins rarely stay under water for more&#xa; than four minutes. They sometimes leap completely&#xa; out of the water. They may also rise up vertically&#xa; from the water, exposing the dorsal half of their &#xa;bodies. A pair of protruding eyes allows them to &#xa;see clearly in both air and water. "/>
-                  </Properties>
-                </Component>
-              </SubComponents>
-            </Container>
-            <Component class="javax.swing.JLabel" name="jLabel5">
-            </Component>
-            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
-              <AuxValues>
-                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-              </AuxValues>
-
-              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-              <SubComponents>
-                <Component class="javax.swing.JTextArea" name="jTextArea5">
-                  <Properties>
-                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="cc" green="cc" red="cc" type="rgb"/>
-                    </Property>
-                    <Property name="columns" type="int" value="20"/>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="16" style="0"/>
-                    </Property>
-                    <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="&#xa;Indo-Pacific white dolphins are sociable creatures and live in &#xa;groups of three to four. Female dolphins become mature at 10 years&#xa;old, while the males become mature at 13 years old. They usually&#xa;mate from the end of summer to autumn.&#xa;&#xa;Infant dolphins are usually born 11 months after the mating. Mature &#xa;females can give birth every three years, and parental care lasts until&#xa;their offspring can find food  themselves. "/>
-                  </Properties>
-                </Component>
-              </SubComponents>
-            </Container>
-          </SubComponents>
-        </Container>
         <Container class="javax.swing.JPanel" name="jPanel3">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Page 3">
-                <Property name="tabTitle" type="java.lang.String" value="Page 3"/>
+              <JTabbedPaneConstraints tabName="">
+                <Property name="tabTitle" type="java.lang.String" value=""/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -344,20 +243,20 @@
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                              <Component id="jLabel9" min="-2" pref="238" max="-2" attributes="0"/>
-                              <EmptySpace pref="44" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel9" min="-2" pref="428" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
                               <Component id="jScrollPane4" min="-2" pref="710" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace min="-2" pref="556" max="-2" attributes="0"/>
-                                      <Component id="jLabel6" min="-2" pref="312" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="jScrollPane10" alignment="0" min="-2" pref="716" max="-2" attributes="0"/>
-                              </Group>
+                              <Component id="jScrollPane10" min="-2" pref="716" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" pref="501" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -367,23 +266,24 @@
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabel6" min="-2" pref="47" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jScrollPane4" min="-2" pref="193" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              <Component id="jLabel9" min="-2" pref="26" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="jLabel23" pref="172" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel9" min="-2" pref="75" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jScrollPane10" min="-2" pref="233" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="17" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -391,6 +291,12 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel6">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="eufm10" size="32" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="ff" red="33" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Human and The environment"/>
               </Properties>
             </Component>
@@ -440,81 +346,29 @@
             </Container>
             <Component class="javax.swing.JLabel" name="jLabel9">
               <Properties>
-                <Property name="text" type="java.lang.String" value="The Impact of Plastic Polution"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="eufm10" size="32" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="ff" red="33" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Impact of Plastic Polution"/>
               </Properties>
             </Component>
-          </SubComponents>
-        </Container>
-        <Container class="javax.swing.JPanel" name="jPanel5">
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Page 4">
-                <Property name="tabTitle" type="java.lang.String" value="Page 4"/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="423" max="32767" attributes="0"/>
-                      <Component id="jLabel13" min="-2" pref="215" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="398" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      <Component id="jScrollPane11" min="-2" pref="583" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
-                      <Component id="jLabel13" min="-2" pref="29" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jScrollPane11" min="-2" pref="463" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel13">
+            <Component class="javax.swing.JLabel" name="jLabel23">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Pollutants"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icons/1.jpeg"/>
+                </Property>
               </Properties>
             </Component>
-            <Container class="javax.swing.JScrollPane" name="jScrollPane11">
-              <AuxValues>
-                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-              </AuxValues>
-
-              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-              <SubComponents>
-                <Component class="javax.swing.JTextArea" name="jTextArea11">
-                  <Properties>
-                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="cc" green="cc" red="cc" type="rgb"/>
-                    </Property>
-                    <Property name="columns" type="int" value="20"/>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="16" style="0"/>
-                    </Property>
-                    <Property name="rows" type="int" value="5"/>
-                    <Property name="text" type="java.lang.String" value="Indo-Pacific humpback dolphin (Sousa chinensis) are chronically &#xa;exposed to organic pollutants since they inhabit shallow coastal &#xa;waters that are often impacted by anthropogenic activities. &#xa;&#xa;Anthropogenic pollutants pose a risk to marine mammals that &#xa;reside in coastal waters. Discharge of organic pollutants into &#xa;marine environments has been shown to decrease water quality &#xa;resulting in loss of habitats and a significant reduction in the&#xa; species richness.&#xa;&#xa;The loss of key pods have caused specie fragmentation, also due &#xa;to habitat loss, which inclines specie isolation; decrease connectivity&#xa;resulting in population decline. This loss in population is what lead &#xa;this species to be labeled as near threatened on the IUCN Red List &#xa;of Threatened Species.&#xa;&#xa;The consumption of plastics have adverse effects in marine&#xa; mammals such as disease susceptibility, reproductive and &#xa;developmental toxicity."/>
-                  </Properties>
-                </Component>
-              </SubComponents>
-            </Container>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jPanel6">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Page 5">
-                <Property name="tabTitle" type="java.lang.String" value="Page 5"/>
+              <JTabbedPaneConstraints tabName="">
+                <Property name="tabTitle" type="java.lang.String" value=""/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -523,13 +377,13 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-                      <Component id="jLabel14" min="-2" pref="265" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jScrollPane12" min="-2" pref="537" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jScrollPane12" min="-2" pref="537" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="499" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      <Component id="jLabel14" min="-2" pref="572" max="-2" attributes="0"/>
+                      <EmptySpace pref="410" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -537,10 +391,10 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                      <Component id="jLabel14" min="-2" pref="31" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel14" min="-2" pref="50" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="jScrollPane12" min="-2" pref="323" max="-2" attributes="0"/>
-                      <EmptySpace pref="156" max="32767" attributes="0"/>
+                      <EmptySpace pref="151" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -570,6 +424,12 @@
             </Container>
             <Component class="javax.swing.JLabel" name="jLabel14">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="eufm10" size="32" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="0" red="99" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Distribution and Dolphine watching"/>
               </Properties>
             </Component>
@@ -578,8 +438,8 @@
         <Container class="javax.swing.JPanel" name="jPanel7">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Page 6">
-                <Property name="tabTitle" type="java.lang.String" value="Page 6"/>
+              <JTabbedPaneConstraints tabName="">
+                <Property name="tabTitle" type="java.lang.String" value=""/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -587,11 +447,6 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="294" max="-2" attributes="0"/>
-                      <Component id="jLabel7" min="-2" pref="344" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-                  </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -603,9 +458,18 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel8" min="-2" pref="219" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="jLabel11" min="-2" pref="219" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="228" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabel11" min="-2" pref="219" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="228" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel7" min="-2" pref="679" max="-2" attributes="0"/>
+                                      <EmptySpace pref="115" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="143" pref="143" max="-2" attributes="0"/>
@@ -613,7 +477,7 @@
                                   <Component id="jScrollPane7" pref="359" max="32767" attributes="0"/>
                                   <Component id="jScrollPane6" alignment="1" max="32767" attributes="0"/>
                               </Group>
-                              <EmptySpace pref="112" max="32767" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jScrollPane8" alignment="1" min="-2" pref="405" max="-2" attributes="0"/>
                                   <Component id="jScrollPane9" alignment="1" min="-2" pref="399" max="-2" attributes="0"/>
@@ -629,7 +493,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel7" min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="jLabel7" min="-2" pref="48" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabel11" min="-2" pref="36" max="-2" attributes="0"/>
                           </Group>
@@ -656,7 +520,7 @@
                               <Component id="jScrollPane9" min="-2" pref="171" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="50" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -664,6 +528,12 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel7">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="eufm10" size="32" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Chinese White Dolphin Interesting  Facts"/>
               </Properties>
             </Component>
@@ -804,8 +674,8 @@
         <Container class="javax.swing.JPanel" name="jPanel4">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Question">
-                <Property name="tabTitle" type="java.lang.String" value="Question"/>
+              <JTabbedPaneConstraints tabName="">
+                <Property name="tabTitle" type="java.lang.String" value=""/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -823,7 +693,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jPanel9" min="-2" pref="550" max="-2" attributes="0"/>
+                      <Component id="jPanel9" min="-2" pref="573" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -832,65 +702,8 @@
           <SubComponents>
             <Container class="javax.swing.JPanel" name="jPanel9">
 
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jPanel10" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jPanel11" alignment="0" max="32767" attributes="0"/>
-                              <Component id="jPanel12" alignment="0" max="32767" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jPanel13" min="-2" max="-2" attributes="0"/>
-                              <Component id="jPanel14" max="32767" attributes="0"/>
-                              <Component id="jPanel15" alignment="0" max="32767" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="430" max="-2" attributes="0"/>
-                                  <Component id="jButton2" min="-2" pref="168" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="335" max="-2" attributes="0"/>
-                                  <Component id="jLabel16" min="-2" pref="324" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                          <Component id="jLabel16" min="-2" pref="44" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
-                              <Component id="jPanel13" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
-                              <Component id="jPanel14" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jPanel12" min="-2" max="-2" attributes="0"/>
-                              <Component id="jPanel15" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jButton2" min="-2" pref="44" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="181" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                </DimensionLayout>
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="true"/>
               </Layout>
               <SubComponents>
                 <Component class="javax.swing.JLabel" name="jLabel16">
@@ -903,445 +716,582 @@
                     </Property>
                     <Property name="text" type="java.lang.String" value="Review Questions"/>
                   </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="335" y="12" width="324" height="44"/>
+                    </Constraint>
+                  </Constraints>
                 </Component>
-                <Container class="javax.swing.JPanel" name="jPanel10">
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                                      <Component id="jLabel15" min="-2" pref="361" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="jRq1c" alignment="0" pref="187" max="32767" attributes="0"/>
-                                          <Component id="jRq1a" alignment="0" max="32767" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                      <Component id="jRq1b" min="-2" pref="182" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel15" min="-2" pref="45" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jRq1a" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jRq1b" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jRq1c" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                  <SubComponents>
-                    <Component class="javax.swing.JRadioButton" name="jRq1b">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="Grey, Pink or Brown"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JRadioButton" name="jRq1a">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="Grey,Black or Pink"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JRadioButton" name="jRq1c">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="Grey, White or Pink"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel15">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                          <Font name="Liberation Sans Narrow" size="18" style="1"/>
-                        </Property>
-                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="0" green="cc" red="33" type="rgb"/>
-                        </Property>
-                        <Property name="text" type="java.lang.String" value="Q1: What is the Color of Chinese White Dolphine?"/>
-                      </Properties>
-                    </Component>
-                  </SubComponents>
-                </Container>
-                <Container class="javax.swing.JPanel" name="jPanel11">
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jRq2c" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jRq2a" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-                                      <Component id="jRq2b" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                                      <Component id="jLabel17" min="-2" pref="407" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace pref="65" max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel17" min="-2" pref="45" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jRq2a" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jRq2b" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jRq2c" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                  <SubComponents>
-                    <Component class="javax.swing.JRadioButton" name="jRq2b">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="3 to 5mtrs"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JRadioButton" name="jRq2a">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="2 to 3.5 mtrs"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JRadioButton" name="jRq2c">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="2 to 4 mtrs"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel17">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                          <Font name="Liberation Sans Narrow" size="18" style="1"/>
-                        </Property>
-                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="0" green="cc" red="33" type="rgb"/>
-                        </Property>
-                        <Property name="text" type="java.lang.String" value="Q2: What is the body length of adult white Dolphine?"/>
-                      </Properties>
-                    </Component>
-                  </SubComponents>
-                </Container>
-                <Container class="javax.swing.JPanel" name="jPanel12">
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jRq3a" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-                                      <Component id="jRq3b" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                                      <Component id="jLabel18" min="-2" pref="361" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="jRq3c" alignment="0" min="-2" pref="172" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel18" min="-2" pref="45" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jRq3a" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jRq3b" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jRq3c" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                  <SubComponents>
-                    <Component class="javax.swing.JRadioButton" name="jRq3b">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="150 to 230 kgs"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JRadioButton" name="jRq3a">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="130 to 250kgs"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JRadioButton" name="jRq3c">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="200 to 330 kgs"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel18">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                          <Font name="Liberation Sans Narrow" size="18" style="1"/>
-                        </Property>
-                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="0" green="cc" red="33" type="rgb"/>
-                        </Property>
-                        <Property name="text" type="java.lang.String" value="Q3: What is the weight of adult dolphine?"/>
-                      </Properties>
-                    </Component>
-                  </SubComponents>
-                </Container>
-                <Container class="javax.swing.JPanel" name="jPanel13">
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jRq4a" min="-2" pref="98" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                                      <Component id="jRq4b" min="-2" pref="95" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                                      <Component id="jLabel19" min="-2" pref="361" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="jRq4c" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace pref="75" max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel19" min="-2" pref="45" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jRq4a" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jRq4b" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jRq4c" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                  <SubComponents>
-                    <Component class="javax.swing.JRadioButton" name="jRq4b">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="Pink"/>
-                      </Properties>
-                      <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRq4bActionPerformed"/>
-                      </Events>
-                    </Component>
-                    <Component class="javax.swing.JRadioButton" name="jRq4a">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="White"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JRadioButton" name="jRq4c">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="Black"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel19">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                          <Font name="Liberation Sans Narrow" size="18" style="1"/>
-                        </Property>
-                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="0" green="cc" red="33" type="rgb"/>
-                        </Property>
-                        <Property name="text" type="java.lang.String" value="Q4: What is the color that the White dolphin are born in?"/>
-                      </Properties>
-                    </Component>
-                  </SubComponents>
-                </Container>
-                <Container class="javax.swing.JPanel" name="jPanel14">
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jRq5c" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jRq5a" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-                                      <Component id="jRq5b" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                                      <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel20" min="-2" pref="45" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jRq5a" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jRq5b" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jRq5c" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                  <SubComponents>
-                    <Component class="javax.swing.JRadioButton" name="jRq5b">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="30 to 40 seconds"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JRadioButton" name="jRq5a">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="20 to 30seconds"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JRadioButton" name="jRq5c">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="10 to 20 seconds"/>
-                      </Properties>
-                      <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRq5cActionPerformed"/>
-                      </Events>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel20">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                          <Font name="Liberation Sans Narrow" size="18" style="1"/>
-                        </Property>
-                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="0" green="cc" red="33" type="rgb"/>
-                        </Property>
-                        <Property name="text" type="java.lang.String" value="Q5: How long do white dolphine stay over water before they dive back?"/>
-                      </Properties>
-                    </Component>
-                  </SubComponents>
-                </Container>
-                <Container class="javax.swing.JPanel" name="jPanel15">
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jRq6c" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jRq6a" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-                                      <Component id="jRq6b" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                                      <Component id="jLabel21" min="-2" pref="361" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel21" min="-2" pref="45" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jRq6a" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jRq6b" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jRq6c" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                  <SubComponents>
-                    <Component class="javax.swing.JRadioButton" name="jRq6b">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="12 months"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JRadioButton" name="jRq6a">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="10 months"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JRadioButton" name="jRq6c">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="11 months"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel21">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                          <Font name="Liberation Sans Narrow" size="18" style="1"/>
-                        </Property>
-                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="0" green="cc" red="33" type="rgb"/>
-                        </Property>
-                        <Property name="text" type="java.lang.String" value="Q6: How long is the gestation period of white Dolphine? "/>
-                      </Properties>
-                    </Component>
-                  </SubComponents>
-                </Container>
                 <Component class="javax.swing.JButton" name="jButton2">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="jButton1"/>
+                    <Property name="text" type="java.lang.String" value="Submit"/>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
                   </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="430" y="490" width="168" height="44"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel15">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Liberation Sans Narrow" size="18" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="cc" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Q1: What is the Color of Chinese White Dolphine?"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="40" y="80" width="361" height="45"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq1a">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Grey,Black or Pink"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="30" y="130" width="187" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq1b">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Grey, Pink or Brown"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="250" y="130" width="182" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq1c">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Grey, White or Pink"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="30" y="180" width="187" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel17">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Liberation Sans Narrow" size="18" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="cc" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Q2: What is the body length of adult white Dolphine?"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="40" y="230" width="407" height="45"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq2b">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="3 to 5mtrs"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="230" y="280" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq2a">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="2 to 3.5 mtrs"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="40" y="280" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq2c">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="2 to 4 mtrs"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="40" y="330" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq3a">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="130 to 250kgs"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="40" y="420" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq3c">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="200 to 330 kgs"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="40" y="460" width="172" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq3b">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="150 to 230 kgs"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="230" y="420" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel18">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Liberation Sans Narrow" size="18" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="cc" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Q3: What is the weight of adult dolphine?"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="40" y="360" width="361" height="45"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq6a">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="10 months"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="520" y="410" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq6c">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="11 months"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="520" y="450" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq6b">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="12 months"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="690" y="410" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel21">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Liberation Sans Narrow" size="18" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="cc" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Q6: How long is the gestation period of white Dolphine? "/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="520" y="360" width="361" height="45"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq4a">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="White"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="510" y="140" width="98" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq4b">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pink"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRq4bActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="650" y="140" width="95" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq4c">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Black"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="510" y="190" width="87" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel19">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Liberation Sans Narrow" size="18" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="cc" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Q4: What is the color that the White dolphin are born in?"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="510" y="80" width="361" height="45"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel20">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Liberation Sans Narrow" size="18" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="cc" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Q5: How long do white dolphine stay over water before they dive back?"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="520" y="230" width="-1" height="45"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq5a">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="20 to 30seconds"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="510" y="290" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq5c">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="10 to 20 seconds"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRq5cActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="510" y="330" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRq5b">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="30 to 40 seconds"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="710" y="290" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel26">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Icons/anim1.gif"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="630" y="0" width="430" height="520"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel30">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Icons/anim1.gif"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="0" y="0" width="430" height="520"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel31">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Icons/anim1.gif"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="430" y="0" width="200" height="520"/>
+                    </Constraint>
+                  </Constraints>
                 </Component>
               </SubComponents>
             </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="">
+                <Property name="tabTitle" type="java.lang.String" value=""/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel13" min="-2" pref="215" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="398" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel25" min="-2" pref="295" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="146" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel24" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane11" min="-2" pref="583" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="jLabel13" min="-2" pref="29" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane11" min="-2" pref="463" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel24" min="-2" pref="480" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel25" min="-2" pref="135" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="eufm10" size="32" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Pollutants"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane11">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea11">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="16" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Indo-Pacific humpback dolphin (Sousa chinensis) are chronically &#xa;exposed to organic pollutants since they inhabit shallow coastal &#xa;waters that are often impacted by anthropogenic activities. &#xa;&#xa;Anthropogenic pollutants pose a risk to marine mammals that &#xa;reside in coastal waters. Discharge of organic pollutants into &#xa;marine environments has been shown to decrease water quality &#xa;resulting in loss of habitats and a significant reduction in the&#xa; species richness.&#xa;&#xa;The loss of key pods have caused specie fragmentation, also due &#xa;to habitat loss, which inclines specie isolation; decrease connectivity&#xa;resulting in population decline. This loss in population is what lead &#xa;this species to be labeled as near threatened on the IUCN Red List &#xa;of Threatened Species.&#xa;&#xa;The consumption of plastics have adverse effects in marine&#xa; mammals such as disease susceptibility, reproductive and &#xa;developmental toxicity."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icons/anim1.gif"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icons/3.jpeg"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="">
+                <Property name="tabTitle" type="java.lang.String" value=""/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="true"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="eufm10" size="36" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Behavior "/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="160" y="12" width="279" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="12" y="54" width="445" height="294"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea3">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="16" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;Indo-Pacific white dolphins come to the water&#xa; surface to breathe for 20 to 30 seconds before &#xa;diving deep again, for two to eight minutes. Dolphin &#xa;calves, with smaller lung capacities, surface twice as &#xa;often as adults, staying underwater for one to three &#xa;minutes.&#xa;&#xa; Adult dolphins rarely stay under water for more&#xa; than four minutes. They sometimes leap completely&#xa; out of the water. They may also rise up vertically&#xa; from the water, exposing the dorsal half of their &#xa;bodies. A pair of protruding eyes allows them to &#xa;see clearly in both air and water. "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="6" y="54" width="-1" height="316"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="469" y="260" width="584" height="224"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea5">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                    </Property>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="16" style="0"/>
+                    </Property>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="&#xa;Indo-Pacific white dolphins are sociable creatures and live in &#xa;groups of three to four. Female dolphins become mature at 10 years&#xa;old, while the males become mature at 13 years old. They usually&#xa;mate from the end of summer to autumn.&#xa;&#xa;Infant dolphins are usually born 11 months after the mating. Mature &#xa;females can give birth every three years, and parental care lasts until&#xa;their offspring can find food  themselves. "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel27">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icons/anim2.gif"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="0" y="160" width="560" height="390"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel28">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icons/anim2.gif"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="480" y="160" width="80" height="390"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel29">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icons/anim2.gif"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="560" y="-10" width="480" height="390"/>
+                </Constraint>
+              </Constraints>
+            </Component>
           </SubComponents>
         </Container>
       </SubComponents>
     </Container>
     <Component class="javax.swing.JButton" name="jBprevious">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Icons/previous.jpeg"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Previous"/>
       </Properties>
       <Events>
@@ -1350,8 +1300,14 @@
     </Component>
     <Component class="javax.swing.JButton" name="jBnext">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Icons/next.jpeg"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Next"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBnextActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
