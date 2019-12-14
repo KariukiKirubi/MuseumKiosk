@@ -170,7 +170,7 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/index.jpeg"))); // NOI18N
         jLabel2.setText("jLabel2");
 
-        jTextArea2.setBackground(new java.awt.Color(204, 204, 204));
+        jTextArea2.setBackground(new java.awt.Color(204, 204, 255));
         jTextArea2.setColumns(20);
         jTextArea2.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         jTextArea2.setRows(5);
@@ -180,7 +180,7 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(51, 255, 0));
         jLabel3.setText("Chinese White Dolphine  Description");
 
-        jTextArea1.setBackground(new java.awt.Color(204, 204, 204));
+        jTextArea1.setBackground(new java.awt.Color(204, 204, 255));
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         jTextArea1.setRows(5);
@@ -250,12 +250,14 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jLabel4.setText("Behavior ");
 
+        jTextArea3.setBackground(new java.awt.Color(204, 204, 204));
         jTextArea3.setColumns(20);
         jTextArea3.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         jTextArea3.setRows(5);
         jTextArea3.setText("\nIndo-Pacific white dolphins come to the water\n surface to breathe for 20 to 30 seconds before \ndiving deep again, for two to eight minutes. Dolphin \ncalves, with smaller lung capacities, surface twice as \noften as adults, staying underwater for one to three \nminutes.\n\n Adult dolphins rarely stay under water for more\n than four minutes. They sometimes leap completely\n out of the water. They may also rise up vertically\n from the water, exposing the dorsal half of their \nbodies. A pair of protruding eyes allows them to \nsee clearly in both air and water. ");
         jScrollPane3.setViewportView(jTextArea3);
 
+        jTextArea5.setBackground(new java.awt.Color(204, 204, 204));
         jTextArea5.setColumns(20);
         jTextArea5.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         jTextArea5.setRows(5);
@@ -298,12 +300,14 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jLabel6.setText("Human and The environment");
 
+        jTextArea4.setBackground(new java.awt.Color(204, 204, 204));
         jTextArea4.setColumns(20);
         jTextArea4.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         jTextArea4.setRows(5);
         jTextArea4.setText("\nThe white  dolphin is threatened by both habitat loss and pollution.\n Conservationists warn that Hong Kong may lose its rare Indo-Pacific humpback \ndolphins, also known as pink dolphins for their unique colour, unless China takes \nurgent action against pollution and other threats. \n\nTheir numbers in Hong Kong waters have fallen from an estimated 158 in 2003 to\n just 78 in 2011, with a further decline expected by the Hong Kong Dolphin\n Conservation Society");
         jScrollPane4.setViewportView(jTextArea4);
 
+        jTextArea10.setBackground(new java.awt.Color(204, 204, 204));
         jTextArea10.setColumns(20);
         jTextArea10.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         jTextArea10.setRows(5);
@@ -355,6 +359,7 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jLabel13.setText("Pollutants");
 
+        jTextArea11.setBackground(new java.awt.Color(204, 204, 204));
         jTextArea11.setColumns(20);
         jTextArea11.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         jTextArea11.setRows(5);
@@ -385,6 +390,7 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Page 4", jPanel5);
 
+        jTextArea12.setBackground(new java.awt.Color(0, 204, 204));
         jTextArea12.setColumns(20);
         jTextArea12.setFont(new java.awt.Font("Dialog", 0, 16)); // NOI18N
         jTextArea12.setRows(5);
@@ -423,6 +429,7 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel8.setForeground(new java.awt.Color(255, 0, 255));
         jLabel8.setText("What Color?");
 
+        jTextArea6.setBackground(new java.awt.Color(204, 204, 0));
         jTextArea6.setColumns(20);
         jTextArea6.setFont(new java.awt.Font("Dialog", 0, 15)); // NOI18N
         jTextArea6.setRows(5);
@@ -433,6 +440,7 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel10.setForeground(new java.awt.Color(255, 0, 255));
         jLabel10.setText("Favourite Food");
 
+        jTextArea7.setBackground(new java.awt.Color(204, 204, 0));
         jTextArea7.setColumns(20);
         jTextArea7.setFont(new java.awt.Font("Dialog", 0, 15)); // NOI18N
         jTextArea7.setRows(5);
@@ -443,6 +451,7 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel11.setForeground(new java.awt.Color(255, 0, 255));
         jLabel11.setText("How long does it live");
 
+        jTextArea8.setBackground(new java.awt.Color(204, 204, 0));
         jTextArea8.setColumns(20);
         jTextArea8.setFont(new java.awt.Font("Dialog", 0, 15)); // NOI18N
         jTextArea8.setRows(5);
@@ -453,6 +462,7 @@ public class MuseumPage extends javax.swing.JFrame {
         jLabel12.setForeground(new java.awt.Color(255, 0, 255));
         jLabel12.setText("Good Peer Support");
 
+        jTextArea9.setBackground(new java.awt.Color(204, 204, 0));
         jTextArea9.setColumns(20);
         jTextArea9.setFont(new java.awt.Font("Dialog", 0, 15)); // NOI18N
         jTextArea9.setRows(5);
@@ -521,6 +531,8 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Page 6", jPanel7);
 
+        jLabel16.setFont(new java.awt.Font("Padauk Book", 1, 36)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(204, 0, 0));
         jLabel16.setText("Review Questions");
 
         jRq1b.setText("Grey, Pink or Brown");
@@ -529,7 +541,9 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jRq1c.setText("Grey, White or Pink");
 
-        jLabel15.setText("What is the Color of Chinese White Dolphine?");
+        jLabel15.setFont(new java.awt.Font("Liberation Sans Narrow", 1, 18)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(51, 204, 0));
+        jLabel15.setText("Q1: What is the Color of Chinese White Dolphine?");
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -547,7 +561,7 @@ public class MuseumPage extends javax.swing.JFrame {
                             .addComponent(jRq1a, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(30, 30, 30)
                         .addComponent(jRq1b, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(81, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel10Layout.setVerticalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -569,7 +583,9 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jRq2c.setText("2 to 4 mtrs");
 
-        jLabel17.setText("What is the body length of adult white Dolphine?");
+        jLabel17.setFont(new java.awt.Font("Liberation Sans Narrow", 1, 18)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(51, 204, 0));
+        jLabel17.setText("Q2: What is the body length of adult white Dolphine?");
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
@@ -585,8 +601,8 @@ public class MuseumPage extends javax.swing.JFrame {
                         .addComponent(jRq2b))
                     .addGroup(jPanel11Layout.createSequentialGroup()
                         .addGap(8, 8, 8)
-                        .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 361, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 407, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(65, Short.MAX_VALUE))
         );
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -608,7 +624,9 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jRq3c.setText("200 to 330 kgs");
 
-        jLabel18.setText("What is the weight of adult dolphine?");
+        jLabel18.setFont(new java.awt.Font("Liberation Sans Narrow", 1, 18)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(51, 204, 0));
+        jLabel18.setText("Q3: What is the weight of adult dolphine?");
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
@@ -652,7 +670,9 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jRq4c.setText("Black");
 
-        jLabel19.setText("What is the color that the White dolphin are born in?");
+        jLabel19.setFont(new java.awt.Font("Liberation Sans Narrow", 1, 18)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(51, 204, 0));
+        jLabel19.setText("Q4: What is the color that the White dolphin are born in?");
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
@@ -696,7 +716,9 @@ public class MuseumPage extends javax.swing.JFrame {
             }
         });
 
-        jLabel20.setText("How long do white dolphine stay over water before they dive back?");
+        jLabel20.setFont(new java.awt.Font("Liberation Sans Narrow", 1, 18)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(51, 204, 0));
+        jLabel20.setText("Q5: How long do white dolphine stay over water before they dive back?");
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
@@ -735,7 +757,9 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jRq6c.setText("11 months");
 
-        jLabel21.setText("How long is the gestation period of white Dolphine? ");
+        jLabel21.setFont(new java.awt.Font("Liberation Sans Narrow", 1, 18)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(51, 204, 0));
+        jLabel21.setText("Q6: How long is the gestation period of white Dolphine? ");
 
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
@@ -752,7 +776,7 @@ public class MuseumPage extends javax.swing.JFrame {
                     .addGroup(jPanel15Layout.createSequentialGroup()
                         .addGap(8, 8, 8)
                         .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 361, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(100, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -780,32 +804,32 @@ public class MuseumPage extends javax.swing.JFrame {
         jPanel9Layout.setHorizontalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGap(266, 266, 266)
-                        .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGap(26, 26, 26)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                            .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addGap(26, 26, 26)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(15, 15, 15))
             .addGroup(jPanel9Layout.createSequentialGroup()
-                .addGap(430, 430, 430)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGap(430, 430, 430)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGap(335, 335, 335)
+                        .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addGap(12, 12, 12)
-                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -842,6 +866,11 @@ public class MuseumPage extends javax.swing.JFrame {
         jTabbedPane1.addTab("Question", jPanel4);
 
         jButton1.setText("as");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("jButton1");
 
@@ -886,6 +915,12 @@ public class MuseumPage extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
             QuestionsSubmit();      // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+           
+        //Navigate through the pages
+        jTabbedPane1.setSelectedIndex(1);       // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1011,16 +1046,18 @@ public class MuseumPage extends javax.swing.JFrame {
 //Class for taking question answers
     public void QuestionsSubmit(){
        String Q1, Q2, Q3, Q4, Q5;
-       String answers=null;
+       String answers="";
        
        int marks=0, percentage=0;
        
+       //if the correct question is selected for quiz 1
        if(jRq1c.isSelected()==true){
        marks+=1;
         } else {
        answers=answers+"\n Quiz 1: "+jRq1c.getText()+" ";
        }
        
+       //if the correct question is selected for quiz 2
        if(jRq2a.isSelected()==true){
        marks=marks+1;
        JOptionPane.showMessageDialog(null, "kk 2 "+marks);
@@ -1028,36 +1065,41 @@ public class MuseumPage extends javax.swing.JFrame {
        answers=answers+"\n Quiz 2: "+jRq2a.getText()+" ";
        }
        
+       //if the correct question is selected for quiz 3
        if(jRq3b.isSelected()==true){
        marks=marks+1;
        }else{
-       answers=answers+"\n Quiz 3: "+jRq2a.getText()+" ";
+       answers=answers+"\n Quiz 3: "+jRq3b.getText()+" ";
        }
        
+       //if the correct question is selected for quiz 4
        if(jRq4c.isSelected()==true){
        marks=marks+1;
        }else{
-       answers=answers+"\n Quiz 4: "+jRq2a.getText()+" ";
+       answers=answers+"\n Quiz 4: "+jRq4c.getText()+" ";
        }
        
+       //if the correct question is selected for quiz 5       
        if(jRq5a.isSelected()==true){
        marks=marks+1;
        }else{
-       answers=answers+"\n Quiz 5: "+jRq2a.getText()+" ";
+       answers=answers+"\n Quiz 5: "+jRq5a.getText()+" ";
        }
        
+       //if the correct question is selected for quiz 5
        if(jRq6c.isSelected()==true){
        marks=marks+1;
        }else{ 
-       answers=answers+"\n Quiz 6: "+jRq2a.getText()+" ";
+       answers=answers+"\n Quiz 6: "+jRq6c.getText()+" ";
        }
-       
-       JOptionPane.showMessageDialog(null, "kk lasr "+marks);
-       
-       percentage=(marks/6)*100;
-       
-       JOptionPane.showMessageDialog(null, "Marks attained is "+marks+"/6" +percentage);
-       
+      
+       //if the user has gotten all the questions correct congratulate them
+       //else show them the correct question
+       if(marks==6){     
+       JOptionPane.showMessageDialog(null, "Congratulations Your score is "+marks+"/6");
+       }else{
+        JOptionPane.showMessageDialog(null, "Your score is "+marks+"/6"+"\n\n answers to the failed question is: \n"+answers);
+       }
       
         
             
