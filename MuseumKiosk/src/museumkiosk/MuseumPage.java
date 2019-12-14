@@ -28,6 +28,15 @@ public class MuseumPage extends javax.swing.JFrame {
     public MuseumPage() {
         initComponents();
       
+        //if the its the first page Disable the previous button
+        if(jTabbedPane1.getSelectedIndex()==0){
+        jBprevious.setEnabled(false);
+        }
+        //if the its the last page Disable the next button
+        if(jTabbedPane1.getSelectedIndex()==0){
+         jBnext.setEnabled(false);
+        }
+        
     //Button Group for Quiz1
    
     quiz1.add(jRq1a);
@@ -157,8 +166,8 @@ public class MuseumPage extends javax.swing.JFrame {
         jRq6c = new javax.swing.JRadioButton();
         jLabel21 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        jBprevious = new javax.swing.JButton();
+        jBnext = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -865,14 +874,14 @@ public class MuseumPage extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Question", jPanel4);
 
-        jButton1.setText("as");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jBprevious.setText("Previous");
+        jBprevious.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                jBpreviousActionPerformed(evt);
             }
         });
 
-        jButton3.setText("jButton1");
+        jBnext.setText("Next");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -882,9 +891,9 @@ public class MuseumPage extends javax.swing.JFrame {
                 .addContainerGap(16, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jBprevious, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(189, 189, 189)
-                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jBnext, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(248, 248, 248))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1038, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -896,8 +905,8 @@ public class MuseumPage extends javax.swing.JFrame {
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 565, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jBprevious, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jBnext, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(29, 29, 29))
         );
 
@@ -916,11 +925,11 @@ public class MuseumPage extends javax.swing.JFrame {
             QuestionsSubmit();      // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jBpreviousActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBpreviousActionPerformed
            
         //Navigate through the pages
         jTabbedPane1.setSelectedIndex(1);       // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_jBpreviousActionPerformed
 
     /**
      * @param args the command line arguments
@@ -959,9 +968,9 @@ public class MuseumPage extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jBnext;
+    private javax.swing.JButton jBprevious;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1043,7 +1052,7 @@ public class MuseumPage extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea9;
     // End of variables declaration//GEN-END:variables
 
-//Class for taking question answers
+//Method for taking question answers
     public void QuestionsSubmit(){
        String Q1, Q2, Q3, Q4, Q5;
        String answers="";
@@ -1104,5 +1113,16 @@ public class MuseumPage extends javax.swing.JFrame {
         
             
     
+    }
+    
+//Method for button to navigate to the next tab
+    public void nextButton(){
+    //Navigate through the pages
+        jTabbedPane1.setSelectedIndex(jTabbedPane1.getSelectedIndex()+1); 
+    }
+    //Method for button to navigate to the previous tab
+    public void previousButton(){
+    //Navigate through the pages
+        jTabbedPane1.setSelectedIndex(jTabbedPane1.getSelectedIndex()-1); 
     }
 }
